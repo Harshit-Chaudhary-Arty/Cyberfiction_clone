@@ -20,7 +20,7 @@ html , body{
 }
 
 #page1{
- 
+    position: relative;
     background-color: aquamarine;
 }
 
@@ -60,4 +60,36 @@ canvas{
 
 #page8{
     background-color: rgb(198, 0, 96);
+}
+
+#loop{
+    position: absolute;
+    top: 30%;
+    background-color: red;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+}
+#loop h1{
+    font-size: 18vh;
+    white-space: nowrap;
+    text-transform: uppercase;
+    animation-name: infinitescroll;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#loops>h1>span{
+    -webkit-text-stroke: 5px black;
+    color: transparent;
+}
+
+@keyframes infinitescroll{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
 }
