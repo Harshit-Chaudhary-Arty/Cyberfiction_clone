@@ -422,3 +422,13 @@ gsap.to("#page canvas",{
   end: `600% top`,
   }
 });
+
+gsap.to("#page2",{
+  scrollTrigger:{
+    trigger:`#page2`,
+    start:`top top`,
+    end:`bottom top`,
+    pin:true,
+    scroller:`#main`
+  }
+})

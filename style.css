@@ -11,11 +11,44 @@
 html , body{
     height: 100%;
     width: 100%;
+    font-family: akira;
 }
 
 #main{
     position: relative;
     overflow: hidden;
+}
+
+#nav{
+    /* background-color: red; */
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5% 1%;
+    font-weight: 100;
+    position: fixed;
+    width: 100vw;
+    top: 0%;
+    z-index: 2;
+    /* background-color: rgba(240, 248, 255, 0.184); */
+    backdrop-filter: blur(8px);
+}
+
+#nav h2{
+    font-size: 1.3vmax;
+}
+
+#nav h1{
+    font-size: 1.6vmax;
+}
+
+
+#nav span{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 50px;
+    padding: 5px 5px;
 }
 
 .page{
@@ -26,7 +59,7 @@ html , body{
 
 #page1{
     position: relative;
-    background-color: rgb(32, 36, 37);
+    /* background-color: rgb(32, 36, 37); */
     
 }
 
@@ -53,9 +86,9 @@ html , body{
 }
 
 .subtitle h2{
-    color: white;
+    color: rgb(84, 84, 84);
     padding: 2% 0;
-    font-size: 2vh ;
+    font-size: 1vw ;
     font-family: akira;
     width: 38vw;
     font-weight: 100;
@@ -63,24 +96,24 @@ html , body{
 
 #page2{
    /* background-color: red; */
-   background-color: rgb(32, 36, 37);
+   /* background-color: rgb(32, 36, 37); */
 }
 
 #page3{
    
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 #page4{
   
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 
 canvas{
     position: relative;
     max-width: 100vw;
     max-height: 100vh;
-    z-index: 5;
+    z-index: 15;
 }
 
 #page5{
@@ -102,7 +135,7 @@ canvas{
 #loop{
     position: absolute;
     top: 30%;
-    background-color: rgb(78, 237, 20);
+    background-color: yellowgreen;
     height: 20vh;
     width: 100vw;
     display: flex;
@@ -135,3 +168,52 @@ canvas{
         transform: translateX(-100%);
     }
 }
+
+#page2{
+    position: relative;
+}
+
+.lefttext{
+    /* background-color: red; */
+    /* width: 30vw; */
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left:20%;
+    top: 40%;
+}
+
+.lefttext h1{
+    font-size: 2.7vw;
+}
+
+.lefttext h3{
+    color: rgb(124, 124, 124);
+    font-weight: 100;
+}
+
+.righttext{
+    /* background-color: red; */
+    /* width: 20vw; */
+    display: flex;
+    transform: translate(50%,-50%);
+    flex-direction: column;
+    position: absolute;
+    right: 20%;
+    top: 60%;
+    text-align: right;
+
+} 
+
+.righttext h1{
+    font-size: 2.7vw;
+    margin-bottom: 3%;
+}
+
+.righttext h3{
+    color: rgb(124, 124, 124);
+    font-weight: 100;
+
+}
+
