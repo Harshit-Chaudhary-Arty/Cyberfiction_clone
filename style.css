@@ -220,6 +220,7 @@ canvas{
 #page5{
     background-color:white
     ;
+    position: relative;
 }
 
 #loop2{
@@ -229,13 +230,40 @@ canvas{
     /* background-color: red; */
     /* overflow: hidden; */
     animation-name: infinitescroll;
-    animation-duration: 19s;
+    animation-duration: 140s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     padding: -10% -10%;
+    position: absolute;
+    bottom: 0%;
     /* background-color: yellowgreen; */
 }
 
+#title5{
+    display: flex;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+    transform:translateX(-50%);
+    position: absolute;
+    left: 50%;
+    margin-top: 3%;
+}
+
+#title5 h1{
+    font-size: 3.2vmax;
+    line-height: 1;
+    padding: 1.8% 0;
+}
+
+#title5 h3{
+    font-weight: 100;
+    color: rgb(144, 144, 144);
+    font-size: 1.2vw;
+}
 
 
 
