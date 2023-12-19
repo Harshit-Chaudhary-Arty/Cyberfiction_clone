@@ -412,7 +412,7 @@ ctx.drawImage(
 );
 }
 
-gsap.to("#page canvas",{
+gsap.to("#page1 canvas",{
   scrollTrigger:{
   trigger: "#page1>canvas",
   pin: true,
