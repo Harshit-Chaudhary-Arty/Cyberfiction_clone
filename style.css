@@ -116,9 +116,6 @@ canvas{
     z-index: 15;
 }
 
-#page5{
-    background-color: green;
-}
 
 #page6{
     background-color: blueviolet;
@@ -219,6 +216,27 @@ canvas{
     font-weight: 100;
 
 }
+
+#page5{
+    background-color:white
+    ;
+}
+
+#loop2{
+    display: flex;
+    /* width: 100vw; */
+    height: 40vh;
+    /* background-color: red; */
+    /* overflow: hidden; */
+    animation-name: infinitescroll;
+    animation-duration: 19s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    padding: -10% -10%;
+    /* background-color: yellowgreen; */
+}
+
+
 
 
 
