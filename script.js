@@ -432,3 +432,13 @@ gsap.to("#page2",{
     scroller:`#main`
   }
 })
+
+gsap.to("#page3",{
+  scrollTrigger:{
+    trigger:`#page3`,
+    start:`top top`,
+    end:`bottom top`,
+    pin:true,
+    scroller:`#main`
+  }
+})

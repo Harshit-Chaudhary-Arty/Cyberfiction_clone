@@ -200,9 +200,10 @@ canvas{
     transform: translate(50%,-50%);
     flex-direction: column;
     position: absolute;
-    right: 20%;
+    right: 22%;
     top: 60%;
-    text-align: right;
+    text-align: end;
+    width: 32vw;
 
 } 
 
@@ -216,4 +217,6 @@ canvas{
     font-weight: 100;
 
 }
+
+
 
