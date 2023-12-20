@@ -206,7 +206,7 @@ canvas{
     /* background-color: red; */
     /* overflow: hidden; */
     animation-name: infinitescroll;
-    animation-duration: 140s;
+    animation-duration: 40s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     padding: -10% -10%;
@@ -243,29 +243,87 @@ canvas{
 
 #page6{
     background-color: #2C2C2C;
-}
-
-#page7{
-    background-color: rgb(23, 0, 44);
-}
-
-#page8{
-    background-color: rgb(198, 0, 96);
-}
-
-#wrapper6{
+    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     color: white;
     width: 100vw;
+    text-align: center;
 }
 
-#wrapper6 #loopimg h1{
-    font-size: 6.5vmax;
+
+#wrapper6{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
+
+#wrapper6 h1{
+    font-size: 2.8vmax;
+}
+
+#wrapper6 h3{
+    font-weight: 100;
+}
+
+#loopimg h1{
+    font-size: 6.8vmax;
     line-height: 1.1;
     white-space: nowrap;
+    font-weight: 200;
+    -webkit-text-stroke: 1.1px rgb(255, 255, 255);
 }
+
+#loop6{
+    /* background-color: yellowgreen; */
+    /* height: 50vmin; */
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 0%;
+        top: 30vh;
+        z-index: 30;
+        animation-duration: 45s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        color: transparent;
+        animation-name: infinitescroll;
+}
+
+#footf{
+    /* background-color: red; */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 53vh;
+    z-index: 34;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+#footf img{
+    height: 60vmin;
+    z-index: 328;
+}
+
+#footf h2{
+    margin-top: 2vh;
+    font-size: 1.6vmax;
+}
+
+#footf h3{
+    font-size: 1vmax;
+    font-weight: 100;
+}
+
 
 
