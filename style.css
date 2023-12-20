@@ -327,8 +327,8 @@ canvas{
 
 #page7{
     background-color: #0e0e0e;
-
-    height: 100vh;
+    color: white;
+    height: 70vh;
     width: 100vw;
     /* background-color: red; */
 }
@@ -344,6 +344,9 @@ canvas{
 
 #links{
     display: flex;
+    /* align-self: flex-start; */
+    /* align-items: center; */
+    justify-content: center;
     gap: 2%;
    
 }
